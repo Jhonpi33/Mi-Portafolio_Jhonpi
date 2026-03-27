@@ -1,0 +1,130 @@
+nav {
+    background-color: #3a3a3a;
+    padding: 20px 60px;
+    overflow: hidden;
+}
+
+nav p {
+    color: rgb(255, 255, 255);
+    margin: 0;
+    font-size: 20px;
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+nav ul li {
+    float: left;
+    margin-left: 70px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    line-height: 25px;
+}
+
+
+
+.image1{
+    width: 400px;
+    
+    margin-right: 40px;
+}
+.image2{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 50%;
+
+}
+
+.image3{
+    width: 200px;
+}
+.button{
+    padding: 15px 10px;
+    background-color:#6a88f2;
+    color: white;
+    border-color: #6a88f2;
+}
+
+.title{
+    color: black;
+    font-size: 30px;
+    margin-top: 120px;
+}
+
+.title h1{
+    font-size: 80px;
+}
+
+
+.profile{
+    background-color: #3a3a3a;
+    padding: 100px;
+    text-align: center;
+    font-size: 20px;
+    color: #6a88f2;
+}
+.profile p{
+    color: white;
+    font-size: 35px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.projects{
+    text-align: center;
+    padding: 80px;
+}
+
+.projects h1{
+    font-size: 60px;
+    color: #3a3a3a;
+}
+
+.project{
+    width: 22%;
+    float: left;
+    margin: 1%;
+    background: #f2f2f2;
+    padding-bottom: 20px;
+}
+
+.project img{
+    width: 100%;
+    height: 150px;
+}
+
+.project h3{
+    margin-top: 15px;
+}
+
+.project p{
+    padding: 10px;
+    font-size: 14px;
+}
+.project img{
+    width: 100%;
+    height: 150px;
+    margin: 0;
+    border-radius: 0;
+}
+.ver{
+    padding: 10px 20px;
+    background-color: #6a88f2;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+

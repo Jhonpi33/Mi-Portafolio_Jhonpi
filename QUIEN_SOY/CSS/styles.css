@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #1a1a1a;
+}
+
+/* ============ NAVEGACION ============ */
+
+nav {
+    background-color: #2e2e2e;
+    padding: 18px 60px;
+    overflow: hidden;
+}
+
+.nav-nombre {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    line-height: 32px;
+}
+
+.nav-links {
+    list-style: none;
+    float: right;
+}
+
+.nav-links li {
+    float: left;
+    margin-left: 40px;
+}
+
+.nav-links li a {
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 32px;
+}
+
+.nav-links li a:hover {
+    color: #6a88f2;
+}
+
+/* ============ QUIEN SOY ============ */
+
+.quien-soy {
+    background-color: #ffffff;
+    padding: 80px 60px;
+    overflow: hidden;
+}
+
+.quien-imagen {
+    float: left;
+    width: 42%;
+}
+
+.quien-imagen img {
+    width: 100%;
+    max-width: 420px;
+    border-radius: 12px;
+}
+
+.quien-texto {
+    float: left;
+    width: 58%;
+    padding-left: 60px;
+    padding-top: 40px;
+}
+
+.quien-texto h1 {
+    font-size: 65px;
+    font-weight: bold;
+    color: #2e2e2e;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.quien-texto h1 span {
+    color: #6a88f2;
+}
+
+.quien-texto p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #555555;
+    margin-bottom: 30px;
+}
+
+/* ============ CITA ============ */
+
+.cita {
+    background-color: #2e2e2e;
+    padding: 80px 60px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.cita-foto {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 3px solid #6a88f2;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+
+.cita-texto {
+    color: #ffffff;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 1.9;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.cita-autor {
+    color: #6a88f2;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* ============ PROYECTOS ============ */
+
+.proyectos {
+    padding: 80px 60px;
+    background-color: #f5f5f5;
+    overflow: hidden;
+}
+
+.proyectos-titulo {
+    font-size: 48px;
+    color: #2e2e2e;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.tarjetas {
+    overflow: hidden;
+}
+
+.tarjeta {
+    float: left;
+    width: 22%;
+    margin-right: 4%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #e0e0e0;
+}
+
+.tarjeta:last-child {
+    margin-right: 0;
+}
+
+.tarjeta img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+}
+
+.tarjeta-info {
+    padding: 18px;
+}
+
+.tarjeta-info h3 {
+    font-size: 17px;
+    color: #2e2e2e;
+    margin-bottom: 10px;
+}
+
+.tarjeta-info p {
+    font-size: 13px;
+    color: #666666;
+    line-height: 1.6;
+    margin-bottom: 18px;
+}
+
+/* ============ BOTON ============ */
+
+.boton-azul {
+    padding: 12px 24px;
+    background-color: #6a88f2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.boton-azul:hover {
+    background-color: #4f6ee0;
+}
