@@ -1,0 +1,183 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #e0e0e0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+}
+
+
+.page {
+  width: 750px;
+  background: #ffffff;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+.header-table {
+  width: 100%;
+  background: #1a1a1a;
+}
+
+
+.header-logo {
+  width: 35%;
+  padding: 24px 20px;
+  vertical-align: middle;
+}
+
+.logo-icon {
+  color: #e07b39;
+  font-size: 38px;
+  font-weight: 900;
+  letter-spacing: -2px;
+  float: left;
+  margin-right: 8px;
+  line-height: 1;
+}
+
+.logo-text {
+  float: left;
+  margin-top: 4px;
+}
+
+.logo-company {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.logo-tagline {
+  color: #888888;
+  font-size: 8px;
+  letter-spacing: 1px;
+}
+
+
+.header-logo::after {
+  content: '';
+  clear: both;
+  table-layout: fixed;
+}
+
+
+.header-deco {
+  width: 20%;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+
+
+
+.header-info {
+  width: 45%;
+  padding: 18px 24px;
+  vertical-align: top;
+  text-align: right;
+}
+
+.invoice-title {
+  color: #e07b39;
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: 4px;
+  margin-bottom: 10px;
+}
+
+.invoice-meta {
+  width: 100%;
+  margin-left: auto;
+}
+
+.meta-label {
+  color: #888888;
+  font-size: 10px;
+  text-align: left;
+  padding: 2px 6px 2px 0;
+  white-space: nowrap;
+}
+
+.meta-value {
+  color: #cccccc;
+  font-size: 10px;
+  text-align: left;
+  padding: 2px 0;
+}
+
+
+.body-section {
+  padding: 30px 24px 40px 24px;
+  background: #ffffff;
+}
+
+.body-table {
+  width: 100%;
+}
+
+.billing-col {
+  width: 55%;
+  vertical-align: top;
+  padding-right: 20px;
+}
+
+.billing-label {
+  color: #e07b39;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  margin-bottom: 6px;
+}
+
+.billing-name {
+  color: #1a1a1a;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.billing-detail {
+  color: #555555;
+  font-size: 11px;
+  margin-bottom: 3px;
+}
+
+
+.payment-col {
+  width: 45%;
+  vertical-align: top;
+  padding-left: 10px;
+}
+
+.payment-label {
+  color: #e07b39;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.payment-table {
+  width: 100%;
+}
+
+.pay-key {
+  color: #333333;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 10px 3px 0;
+  white-space: nowrap;
+}
+
+.pay-val {
+  color: #555555;
+  font-size: 11px;
+  padding: 3px 0;
+}
