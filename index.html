@@ -1,54 +1,105 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio Jhonpi</title>
+    <title>Jhon Pimiento</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <div class="encabezado">
-        <h1>Portafolio De Jhonpi</h1>
-    </div>
+<!-- navegacion -->
+<nav>
+    <h2 class="nombre">Jhon Pimiento</h2>
+    <ul class="nav-links">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">¿Quién soy?</a></li>
+        <li><a href="#">Proyectos</a></li>
+    </ul>
+</nav>
 
-    <div class="seccion-proyectos">
-        <h2>Mis Proyectos</h2>
+<!--quiem soy yo -->
+<section class="hero">
+    <div class="hero-contenido">
 
-        <div class="fila-proyectos">
-
-            <div class="tarjeta">
-                <img src="IMG/Hoja De Vida.jpg">
-                <h3>Hoja De Vida</h3>
-                <p>Mi primera pagina web hecha desde cero</p>
-                <a href="HOJA_DE_VIDA/Index.html">Ver proyecto</a>
-            </div>
-
-            <div class="tarjeta">
-                <img src="IMG/Ticket.avif">
-                <h3>Ticket</h3>
-                <p>Ticketd de eventos.</p>
-                <a href="TICKETD_DE_EVENTOS/Index.html">Ver proyecto</a>
-            </div>
-
-            <div class="tarjeta">   
-                <img src="IMG/Quien Soy Yo.jpg">
-                <h3>Quien Soy Yo</h3>
-                <p>Quien eres tu.</p>
-                <a href="QUIEN_SOY/index.html">Ver proyecto</a>
-            </div>
-
-            <div class="tarjeta">
-                <img src="IMG/xxx.png ">
-                <h3>Factura <h3>
-                <p></p>
-                <a href="MODELOS FACTURA 3/index.html">Ver proyecto</a>
-            </div>
-
+        <div class="foto1">
+            <img src="IMG/Profile 1.JPG" alt="foto1">
         </div>
-    </div>
 
+        <div class="foto-texto">
+            <h1>¿Quién soy?</h1>
+            <p>
+                Hola, soy Jhon Pimiento. Me gusta la programación, 
+                la fotografía y la creación de contenido digital.
+                Disfruto editar videos y transformar ideas en contenido
+                que conecte con las personas. Además, me gusta entrenar 
+                en el gym, porque creo que la disciplina es clave para
+                crecer en cualquier área (aunque no siempre se note 😅).
+                Siempre estoy aprendiendo cosas nuevas y mejorando mis 
+                habilidades para seguir avanzando en el mundo digital.
+            </p>
+            <button>Leer más</button>
+        </div>
+
+    </div>
+</section>
+
+<!-- foto2-->
+<section class="foto2">
+    <img src="IMG/Profile2.png" alt="Foto" class="foto2_img">
+    <p class="foto2-texto">
+        "Programador en formación, pero también alguien que entrena 
+        antes de abrir el editor de código y edita videos cuando todos 
+        ya descansan. No soy una sola cosa, soy una mezcla de todo eso.
+        Estoy en constante crecimiento, construyéndome día a día mientras
+        aprendo, creo y avanzo en el mundo digital."
+    </p>
+    <p class="cita-autor">- Jhon Pimiento</p>
+</section>
+
+<!-- proyectos-->
+<section class="proyectos">
+    <h2>Mis Proyectos</h2>
+
+    <table class="tabla-proyectos">
+        <tr>
+
+            <td>
+                <img src="IMG/Hoja Vida -.png">
+                <h3>Hoja de Vida</h3>
+                <p>Mi primera página web desarrollada con HTML y CSS. En este proyecto aprendí a estructurar contenido, aplicar estilos y dar mis primeros pasos en el desarrollo web. Fue el inicio de mi proceso de aprendizaje, donde comencé a entender cómo crear interfaces y transformar ideas en páginas reales.</p>
+                <button>Ver proyecto</button>
+            </td>
+
+            <td>
+                <img src="IMG/Tiket.jpg">
+                <h3>Ticket</h3>
+                <p>Diseño de ticket inspirado en estilos reales, desarrollado con HTML y CSS. En este proyecto trabajé el uso de colores, tipografía y distribución de elementos para lograr un diseño más visual y cercano a situaciones del mundo real.</p>
+                <button>Ver proyecto</button>
+            </td>
+
+            <td>
+                <img src="IMG/Quien soy yo rojo.png">
+                <h3>Quien Soy</h3>
+                <p>Mi espacio personal en internet, donde muestro quién soy, lo que me gusta y lo que estoy construyendo. Este proyecto refleja mi identidad, mis habilidades y mi crecimiento en el mundo digital.</p>
+                <button>Ver proyecto</button>
+            </td>
+
+            <td>
+                <img src="IMG/proximos .jpg">
+                <h3>Proyecto 4</h3>
+                <p>Este proyecto se encuentra en desarrollo y está enfocado en fortalecer mis conocimientos en programación. Muy pronto incluirá nuevas funcionalidades, mejor estructura y un código más optimizado.</p>
+                <button>Ver proyecto</button>
+            </td>
+
+        </tr>
+    </table>
+</section>
+<!--Derechos de autor-->
+<footer class="footer">
+    <div class="footer_contenido">
+        <p class="copy">Copyright © 2018. Todos los derechos reservados.</p>
+    </div>
+</footer>
 </body>
 </html>
