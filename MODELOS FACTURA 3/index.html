@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <div class="factura">
+
+
+        <header class="encabezado">
+            <div class="contenido-encabezado">
+                <div class="logo">
+                    <div class="logo-icono">Z</div>
+                    <div>
+                        <div class="logo-nombre">COMPANY</div>
+                        <div class="logo-slogan">Company Tagline Here</div>
+                    </div>
+                </div>
+                <div class="info-invoice">
+                    <h2 class="titulo-invoice">INVOICE</h2>
+                    <div class="detalles-invoice">
+                        <div class="detalle-fila">
+                            <span class="detalle-label">Invoice Number:</span>
+                            <span class="detalle-valor">#123456</span>
+                        </div>
+                        <div class="detalle-fila">
+                            <span class="detalle-label">Account No:</span>
+                            <span class="detalle-valor">1234 5678 9101</span>
+                        </div>
+                        <div class="detalle-fila">
+                            <span class="detalle-label">Invoice Date:</span>
+                            <span class="detalle-valor">April 05, 2026</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="barra-separadora"></div>
+
+
+        <div class="cuerpo">
+
+
+            <div class="seccion-cliente">
+                <div class="datos-cliente">
+                    <span class="etiqueta-naranja">Invoice To:</span>
+                    <h2 class="nombre-cliente">Jhone Doe.</h2>
+                    <p>Managing Director, Company ltd.</p>
+                    <p>Phone: +123 4567 8910</p>
+                    <p>Email: example@mail.com</p>
+                </div>
+                <div class="metodo-pago">
+                    <span class="etiqueta-naranja">Payment Method</span>
+                    <div class="fila-pago">
+                        <strong>Account No:</strong>
+                        <span>1234 5678 910</span>
+                    </div>
+                    <div class="fila-pago">
+                        <strong>Account Name:</strong>
+                        <span>Jhone Doe.</span>
+                    </div>
+                    <div class="fila-pago">
+                        <strong>Branch Name:</strong>
+                        <span>XYZ</span>
+                    </div>
+                </div>
+            </div>
+
+            <table class="tabla-items">
+                <thead>
+                    <tr> 
+                        <th>Date</th>
+                        <th>Item Description</th>
+                        <th>Price</th>
+                        <th>Qty.</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Jan 10, 2020</td>
+                        <td>Businesscard Design</td>
+                        <td>$300</td>
+                        <td>2</td>
+                        <td>$600.00</td>
+                    </tr>
+                    <tr>
+                        <td>Jan 10, 2020</td>
+                        <td>Fruit Flayer Design</td>
+                        <td>$455</td>
+                        <td>1</td>
+                        <td>$450.00</td>
+                    </tr>
+                    <tr>
+                        <td>Jan 10, 2020</td>
+                        <td>Application Interface Design</td>
+                        <td>$300</td>
+                        <td>1</td>
+                        <td>$300.00</td>
+                    </tr>
+                    <tr>
+                        <td>Jan 9, 2020</td>
+                        <td>Theme Development</td>
+                        <td>$150</td>
+                        <td>3</td>
+                        <td>$450.00</td>
+                    </tr>
+                    <tr>
+                        <td>Jan 9, 2020</td>
+                        <td>Full Branding Design</td>
+                        <td>$150</td>
+                        <td>1</td>
+                        <td>$150.00</td>
+                    </tr>
+                    <tr>
+                        <td>Jan 8, 2020</td>
+                        <td>Creative Logo Design</td>
+                        <td>$200</td>
+                        <td>1</td>
+                        <td>$200.00</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="seccion-totales">
+                <div class="fila-subtotal">
+                    <span>Subtotal:</span>
+                    <span>$3150.00</span>
+                </div>
+                <div class="fila-subtotal">
+                    <span>Discount:</span>
+                    <span>00.00</span>
+                </div>
+                <div class="fila-subtotal">
+                    <span>Tax (10%):</span>
+                    <span>$315.00</span>
+                </div>
+            </div>
+
+
+            <div class="barra-total">
+                <span class="total-etiqueta">Total:</span>
+                <span class="total-valor">$3465.00</span>
+            </div>
+
+
+            <div class="seccion-pie">
+                <div class="terminos">
+                    <h3>Terms & Conditions:</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                    Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                </div>
+                <div class="firma">
+                    <div class="firma-linea"> <img src="./img/firma2.jpeg" alt=""></div>
+                    <div class="firma-nombre">Your Name &amp; Signature</div>
+                    <div class="firma-cargo">Account Manager</div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <footer class="pie">
+            <img src="./img/fouter.jpeg" alt="">
+        </footer>
+
+    </div>
+
+</body>
+</html>
