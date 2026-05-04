@@ -1,0 +1,71 @@
+body {
+    background: radial-gradient(circle, rgba(87, 87, 158, 1) 0%, rgba(15, 2, 2, 1) 100%);
+    font-family: "Archivo Black", sans-serif;
+}
+
+.encabezado {
+    width: 1000px;
+    margin: auto;
+    background-color: rgb(125, 136, 220);
+    border-radius: 76px;
+    text-align: center;
+    padding: 20px;
+}
+
+.encabezado h1 {
+    color: white;
+    font-size: 45px;
+}
+
+.seccion-proyectos {
+    width: 1000px;
+    margin: 30px auto;
+    background-color: rgb(208, 193, 193);
+    border-radius: 90px;
+    text-align: center;
+    padding: 20px 30px 40px 30px;
+}
+
+.seccion-proyectos h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.fila-proyectos {
+    overflow: hidden;
+}
+
+.tarjeta {
+    float: left;
+    width: 30%;
+    margin: 1.5%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.tarjeta img {
+    width: 100%;
+    border-radius: 10px;
+    height: 150px;
+}
+
+.tarjeta h3 {
+    font-size: 18px;
+    margin: 10px 0 5px 0;
+}
+
+.tarjeta p {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+.tarjeta a {
+    background-color: rgb(125, 136, 220);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
