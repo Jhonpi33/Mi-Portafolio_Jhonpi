@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.piedra-regular {
+    font-family: "Piedra", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.encabezado h1 {
+    color: #F5F5F5;
+    font-size: 45px;
+}
+
+h1{
+    color: #141414;
+    font-size: 100px;
+}
+
+.contenido{
+    position: relative;
+    z-index: 1;
+    color: #000000;
+    text-align: center;
+    margin-top: 6vh;
+}
+
+#bg-video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.fila-proyectos {
+    width: 1000px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.55);
+    border-radius: 40px;
+    text-align: center;
+    padding: 20px 30px 40px 30px;
+    overflow: hidden;
+}
+
+.tarjeta_2 {
+    float: left;
+    width: 280px;
+    border: 10px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(232, 227, 227, 0.472);
+    border-radius: 15px;
+}
+
+#tarjeta_exepcion{
+    float: left;
+    width: 280px;
+    border: 10px;
+    padding: 10px;
+    margin: 10px;
+    background-color:  rgba(232, 227, 227, 0.472);
+    border-radius: 15px;
+}
+
+.tarjeta_2 img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.tarjeto_2 h3 {
+    color: #4e4646;
+    font-family: "Piedra", serif;
+    margin-top: 15px;
+}   
+
+
+.tarjeta_2 p {
+    color: #2b2424;
+    margin: 10px;
+    margin-bottom: 7%;
+}
+
+/**Boton de ver proyecto*/
+.tarjeta_2 a {
+    background-color: #1d191963;
+    color: #F5F5F5;
+    border-radius: 50px;
+    padding: 10px 20px;
+    text-decoration:none;
+    margin-top: 20%;
+}
+.tarjeta_2 a:hover{
+    background-color: rgb(0, 0, 0);
+    transition: 0.4s;
+    color: rgb(255, 255, 255);
+    
+}
+
