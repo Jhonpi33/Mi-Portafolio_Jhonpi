@@ -8,21 +8,11 @@
     /*?    Variables CSS en :root
     /*?   Responsividad con 5 breakpoints
     /*?   prefers-reduced-motion para accesibilidad
-
-    PROHIBICIONES CUMPLIDAS:
-            Sin position (excepto donde es imprescindible)
-            Sin z-index
-            Sin frameworks CSS
-            Sin JavaScript
-            Sin float
-            Sin br para separar elementos
-            Sin tabla para maquetar
 */
 
 
 /*!1. VARIABLES CSS*/
-    /**     Aquí se definen todos los colores, fuentes y espaciados
-    /**     del sitio. Se usan con var(--nombre) en todo el CSS.
+
 */
 :root {
     --color-azul:          #0B1F3A;
@@ -60,8 +50,7 @@
 
 
 /*!2. RESET Y BASE
-    /**     Elimina márgenes y padding por defecto del navegador.
-    /**     box-sizing: border-box hace que padding y border no sumen al ancho. */
+     */
 *::before,
 *::after {
     margin: 0;
@@ -119,9 +108,7 @@ a {
 }
 
 
-/*!4. BOTONES
-    /**      Dos estilos: principal (fondo dorado) y secundario (borde blanco).
-    /**      El ::before de boton-principal crea el efecto de barrido al hover.*/
+/*!4. BOTONES*/
 
 .boton-principal {
     display: inline-block;
@@ -176,9 +163,7 @@ a {
 
 
 /*!5. ENCABEZADO
-    /**      Barra superior con logo y navegación.
-    /**      Menú hamburguesa: checkbox invisible controla la visibilidad del nav
-    /**      con el selector CSS: input:checked - nav*/
+ */
 
 .encabezado {
     display: flex;
@@ -247,10 +232,8 @@ a {
 
 
 /*!6. HERO / INICIO |  SECCIÓN 2 HTML
-    /**      Técnica principal: Grid de 1 sola celda (grid-column: 1 / grid-row: 1)
-    /**      para apilar video, degradado, patrón, contenido y métricas
-    /**      sin usar position: absolute.
-    /**      El orden en el HTML determina cuál capa queda al frente.*/
+
+*/
 
 .inicio {
     display: grid;
@@ -429,8 +412,7 @@ a {
 
 
 /* !7. ÁREAS DE PRÁCTICA
-   *Grid de 4 columnas. El "borde" entre tarjetas es en realidad
-   *el fondo de la cuadrícula que se ve a través del gap de 1px.
+
 */
 
 .areas {
@@ -552,9 +534,7 @@ a {
 }
 
 /*!8. EQUIPO LEGAL
-   Flexbox con wrap para las 4 tarjetas.
-   Dentro de cada tarjeta: Grid de 1 celda para superponer
-   ::before (texto MjA de fondo), imagen, velo dorado y badge de años.
+
 */
 
 .equipo {
@@ -712,8 +692,7 @@ a {
 
 
 /*! 9. HITOS / CASOS DESTACADOS
-   /**Grid de 4 columnas con separadores dorados (mismo truco de gap).
-   /**El ornamento se anima en hover cambiando su width con transition.
+
 */
 
 .hitos {
@@ -794,9 +773,8 @@ a {
 }
 
 
-/*! 10. MÉTODO (4 pasos)
-   /**Grid de 4 columnas SIN gap. Los pasos se separan con border-right.
-   /**En móvil el border-right se convierte en border-bottom.
+/*! 10. MÉTODO 
+
 */
 
 .metodo {
@@ -872,8 +850,7 @@ a {
 
 
 /*!11. EMPRESAS ASESORADAS
-   /**Flexbox con wrap. Fondo con gradiente vertical de blanco a azul
-   /**para crear transición visual entre sección método y conferencias.
+
 */
 
 .clientes {
@@ -939,9 +916,8 @@ a {
 
 
 /*! 12. CONFERENCIAS
-   /** Grid de 3 columnas y 2 filas.
-   /**Video principal ocupa las 3 columnas con grid-column: 1 / 4.
-   /**El badge "Con Audio" se superpone al video con grid de 1 celda.
+
+
 */
 
 .conferencias {
@@ -1058,10 +1034,7 @@ a {
 
 
 /*!13. CONTACTO
-   /**Grid de 2 columnas (1fr + 1.5fr).
-   /**El formulario interno usa grid de 2 columnas.
-   /**.campo--completo usa grid-column: 1 / -1 para ocupar todo el ancho.
-   /**:focus y :focus-visible en inputs para accesibilidad de teclado.
+
 */
 
 .contacto {
@@ -1227,8 +1200,7 @@ a {
 
 
 /*! 14. PIE DE PÁGINA
-   /**Grid de 4 columnas con proporciones distintas (2fr 1fr 1fr 1.5fr).
-   /**::before agrega la línea dorada decorativa en la parte superior.
+
 */
 
 .pie {
@@ -1342,8 +1314,7 @@ a {
 
 
 /*! 15. RESPONSIVIDAD
-   /**5 breakpoints para cubrir desde computadores hasta móviles pequeños.
-   /**Breakpoint 900px: activa el menú hamburguesa.
+
 */
 
 @media (max-width: 1200px) {
@@ -1569,10 +1540,8 @@ a {
 }
 
 
-/*!16. ACCESIBILIDAD — prefers-reduced-motion
-   /**Si el usuario tiene activada la opción "reducir movimiento"
-   /**en su sistema operativo, se desactivan todas las animaciones
-   /**y transiciones para evitar molestias visuales.
+/*!16. ACCESIBILIDAD 
+
 */
 @media (prefers-reduced-motion: reduce) {
     *,
